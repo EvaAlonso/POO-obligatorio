@@ -49,11 +49,13 @@ public class Main {
                 life = life - Harpia.attack();
                 System.out.println("Te quedan " + life + " vidas");
             } else if(characterElection == 1 && answer == 2){
-                System.out.println("Como eres " + anciana.sayRol() + " hablas amablemente con la criatura y esta te trata con respeto y te regala una vida");
+                System.out.println("Como eres " + anciana.sayRol() + " hablas amablemente con la criatura y esta te trata con respeto");
+                System.out.println(Harpia.sentence());
                 life = life + Harpia.attack();
                 System.out.println("Te quedan " + life + " vidas");
             } else if(characterElection == 2 && answer == 1){
                 System.out.println("Como eres " + guerrero.sayRol() + " agredes a la criatura y esta te ataca");
+                System.out.println(Principe.sentence());
                 life = life + Principe.attack();
                 System.out.println("Te quedan " + life + " vidas");
             } else {
@@ -74,11 +76,13 @@ public class Main {
                 life = life - vampiro.attack();
                 System.out.println("Te quedan " + life + " vidas");
             } else if(characterElection == 1 && answer == 2){
-                System.out.println("Como eres " + anciana.sayRol() + " hablas amablemente con la criatura y esta te trata con respeto y te regala una vida");
+                System.out.println("Como eres " + anciana.sayRol() + " hablas amablemente con la criatura y esta te trata con respeto");
+                System.out.println(vampiro.sentence());
                 life = life + vampiro.attack();
                 System.out.println("Te quedan " + life + " vidas");
             } else if(characterElection == 2 && answer == 1){
                 System.out.println("Como eres " + guerrero.sayRol() + " agredes a la criatura y esta te ataca");
+                System.out.println(arconte.sentence());
                 life = life + arconte.attack();
                 System.out.println("Te quedan " + life + " vidas");
             } else {
@@ -99,11 +103,13 @@ public class Main {
                 life = life - sirena.attack();
                 System.out.println("Te quedan " + life + " vidas");
             } else if(characterElection == 1 && answer == 2){
-                System.out.println("Como eres " + anciana.sayRol() + " hablas amablemente con la criatura y esta te trata con respeto y te regala una vida");
+                System.out.println("Como eres " + anciana.sayRol() + " hablas amablemente con la criatura y esta te trata con respeto");
+                System.out.println(sirena.sentence());
                 life = life + sirena.attack();
                 System.out.println("Te quedan " + life + " vidas");
             } else if(characterElection == 2 && answer == 1){
                 System.out.println("Como eres " + guerrero.sayRol() + " agredes a la criatura y esta te ataca");
+                System.out.println(ninfa.sentence());
                 life = life + ninfa.attack();
                 System.out.println("Te quedan " + life + " vidas");
             } else {
@@ -124,11 +130,13 @@ public class Main {
                 life = life - krampus.attack();
                 System.out.println("Te quedan " + life + " vidas");
             } else if(characterElection == 1 && answer == 2){
-                System.out.println("Como eres " + anciana.sayRol() + " hablas amablemente con la criatura y esta te trata con respeto y te regala una vida");
+                System.out.println("Como eres " + anciana.sayRol() + " hablas amablemente con la criatura y esta te trata con respeto");
+                System.out.println(krampus.sentence());
                 life = life + krampus.attack();
                 System.out.println("Te quedan " + life + " vidas");
             } else if(characterElection == 2 && answer == 1){
                 System.out.println("Como eres " + guerrero.sayRol() + " agredes a la criatura y esta te ataca");
+                System.out.println(papaNoel.sentence());
                 life = life + papaNoel.attack();
                 System.out.println("Te quedan " + life + " vidas");
             } else {
