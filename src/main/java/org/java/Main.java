@@ -49,7 +49,7 @@ public class Main {
                 life = life - Harpia.attack();
                 System.out.println("Te quedan " + life + " vidas");
             } else if(characterElection == 1 && answer == 2){
-                System.out.println("Como eres " + anciana.sayRol() + " hablas amablemente con la Harpía y esta te trata con respeto y te regala una vida");
+                System.out.println("Como eres " + anciana.sayRol() + " hablas amablemente con la criatura y esta te trata con respeto y te regala una vida");
                 life = life + Harpia.attack();
                 System.out.println("Te quedan " + life + " vidas");
             } else if(characterElection == 2 && answer == 1){
@@ -74,7 +74,7 @@ public class Main {
                 life = life - vampiro.attack();
                 System.out.println("Te quedan " + life + " vidas");
             } else if(characterElection == 1 && answer == 2){
-                System.out.println("Como eres " + anciana.sayRol() + " hablas amablemente con la Harpía y esta te trata con respeto y te regala una vida");
+                System.out.println("Como eres " + anciana.sayRol() + " hablas amablemente con la criatura y esta te trata con respeto y te regala una vida");
                 life = life + vampiro.attack();
                 System.out.println("Te quedan " + life + " vidas");
             } else if(characterElection == 2 && answer == 1){
@@ -87,9 +87,9 @@ public class Main {
                 System.out.println("Te quedan " + life + " vidas");
             }
         }else if(place == 3){
-            GoodCreature sirena = new GoodCreature("Sirena", "soy una mujer con cola de pez que canta para atraerte ", "zona acuática", true);
+            GoodCreature sirena = new GoodCreature("Sirena", "una mujer con cola de pez que canta para atraerte ", "zona acuática", true);
             System.out.println("1 " + sirena.greeting());
-            BadCreature ninfa = new BadCreature("Ninfa", "soy una dulce muchacha con alas delicadas", "zona acuática", false);
+            BadCreature ninfa = new BadCreature("Ninfa", "una dulce muchacha con alas delicadas", "zona acuática", false);
             System.out.println("2 " + ninfa.greeting());
             System.out.println("A quién te acercas, escribe su número");
             int characterElection = scanner.nextInt();
@@ -99,7 +99,7 @@ public class Main {
                 life = life - sirena.attack();
                 System.out.println("Te quedan " + life + " vidas");
             } else if(characterElection == 1 && answer == 2){
-                System.out.println("Como eres " + anciana.sayRol() + " hablas amablemente con la Harpía y esta te trata con respeto y te regala una vida");
+                System.out.println("Como eres " + anciana.sayRol() + " hablas amablemente con la criatura y esta te trata con respeto y te regala una vida");
                 life = life + sirena.attack();
                 System.out.println("Te quedan " + life + " vidas");
             } else if(characterElection == 2 && answer == 1){
@@ -112,9 +112,9 @@ public class Main {
                 System.out.println("Te quedan " + life + " vidas");
             }
         } else if (place == 4){
-            GoodCreature krampus = new GoodCreature("Krampus", "una critura con orejas de elfo y grandes cuernos y llevo un saco ", "debajo del árbol de navidad", true);
+            GoodCreature krampus = new GoodCreature("Krampus", "una criatura con orejas de elfo y grandes cuernos y llevo un saco ", "debajo del árbol de navidad", true);
             System.out.println("1 " + krampus.greeting());
-            BadCreature papaNoel = new BadCreature("Papá Noel", " un viejo gordo que trae regalos a los niñxs", "debajo del árbol de navidad", false);
+            BadCreature papaNoel = new BadCreature("Papá Noel", "un viejo gordo que trae regalos a los niñxs", "debajo del árbol de navidad", false);
             System.out.println("2 " + papaNoel.greeting());
             System.out.println("A quién te acercas, escribe su número");
             int characterElection = scanner.nextInt();
@@ -124,7 +124,7 @@ public class Main {
                 life = life - krampus.attack();
                 System.out.println("Te quedan " + life + " vidas");
             } else if(characterElection == 1 && answer == 2){
-                System.out.println("Como eres " + anciana.sayRol() + " hablas amablemente con la Harpía y esta te trata con respeto y te regala una vida");
+                System.out.println("Como eres " + anciana.sayRol() + " hablas amablemente con la criatura y esta te trata con respeto y te regala una vida");
                 life = life + krampus.attack();
                 System.out.println("Te quedan " + life + " vidas");
             } else if(characterElection == 2 && answer == 1){
